@@ -1,5 +1,5 @@
-* {
-    
+style {
+    margin: auto
 }
 
 body {
@@ -11,7 +11,8 @@ h1 {
 }
 
 h3 {
-    text-align: center;
+    text-align:center;
+    padding-left: 10%;
 }
 
 input {
@@ -20,29 +21,36 @@ input {
 
 label {
     text-shadow: 10px;
-    margin-right: 0em;
+    margin-right: 10em;
     width:10em;
 }
 
 button {
-    margin: 10px;
-    align-items:stretch;
+    margin: 15px;
+    align-content: 2%;
     border-radius: 3px;
-    margin: 10px;
     background-color: orange;
     cursor: pointer;
-    padding-left: 65px; padding-right: 60px;
+    padding-left: 50px; padding-right: 50px;
+    vertical-align:middle;
+    justify-items: center;
+    display: flex;
+    max-block-size: 20%;
+    width:auto;
 }
 
 form {
     text-align: center;
-    padding-block: 2%;
-    padding-left: 18em;
-    padding-right: 18em;
-    margin: 10px;
+    padding-block: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 5% auto;
     border: 4px inset;
-    border-width: 50%;
-    
-    
+    border-width: 5%;
+    width: 10%;
 }
+
+p:hover, input:hover {
+    background-color: yellow;
+  }
 
