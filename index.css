@@ -1,0 +1,48 @@
+* {
+    
+}
+
+body {
+    border-bottom-right-radius: 3px darkslategray
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+input {
+    background-color: white;
+}
+
+label {
+    text-shadow: 10px;
+    margin-right: 0em;
+    width:10em;
+}
+
+button {
+    margin: 10px;
+    align-items:stretch;
+    border-radius: 3px;
+    margin: 10px;
+    background-color: orange;
+    cursor: pointer;
+    padding-left: 65px; padding-right: 60px;
+}
+
+form {
+    text-align: center;
+    padding-block: 2%;
+    padding-left: 18em;
+    padding-right: 18em;
+    margin: 10px;
+    border: 4px inset;
+    border-width: 50%;
+    
+    
+}
+
